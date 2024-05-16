@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>EXERCICE DU TD2</title>
+    <style>/* Style du tableau */
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        
+        /* Style des en-têtes de colonne */
+        th {
+            background-color: #437d9e;
+            border: 1px solid #d61010;
+            padding: 8px;
+            text-align: left;
+        }
+        
+        /* Style des cellules de données */
+        td {
+            border: 1px solid #d61010;
+            padding: 8px;
+            text-align: left;
+        }
+        
+        /* Style pour alterner les couleurs de fond des lignes */
+        tr:nth-child(even) {
+            background-color: #f9f9f9;
+        }
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+        header {
+            background-color: #b118e9;
+            color: white;
+            padding: 1em 0;
+            text-align: center;
+        }
+        main {
+            flex: 1;
+            padding: 20px;
+        }
+        footer {
+            background-color: #f1f1f1;
+            text-align: center;
+            padding: 10px;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        h1 {
+            color: #333;
+        }
+        /* Style des boutons */
+input[type="submit"],
+input[type="reset"] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 25px; /* Arrondir les coins */
+    cursor: pointer;
+}
+
+/* Style des boutons au survol */
+input[type="submit"]:hover,
+input[type="reset"]:hover {
+    background-color: #45a049;
+}
+footer {
+    background-color: #153dee3b;
+    text-align: center;
+    padding: 1em;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+        </style>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+</head>
+<body>
+    <nav>
+        <header>
+            <div class="container">
+                <a class="navbar-brand" href="/EXAMEN/index.html">
+                    <img src="/IMAGE/Capture d'écran 2024-05-14 195946.png" alt="Logo" width="30" height="24" class="d-inline-block align-text-top">
+                    EXAMEN DEVELOPPEMENT WEB 
+                </a>
+            </div>
+        </header>
+    </nav>
+    <div class="container-fluid">
+        <h2 align="center">TD2</h2>
+        <a href="/TD2_GI_MIAGE_HTML_2024.pdf" target="_blank">télécharger le fichier exercice TD2 HTML ici</a>
+        <h3><u>EXERCICE 1</u></h3>
+        <p>Voici quelques réference relative à mes intéret :</p> 
+        <ol>
+            <li>Football</li>
+            <ul>
+                <li><a href=".....">FIFA</a></li>
+                <li><a href=".....">CAF</a></li>
+            </ul>
+            <li>Informatique</li>
+            <ul>
+                <li><a href=".....">Developpement web</a></li>
+                <li><a href=".....">Webdesign</a></li>
+                <li><a href="......">Reseau Informatique</a></li>
+                <li><a href="....">Telecommunication</a></li>
+            </ul>
+            <li>Envoyez-moi vos commentaires</li>
+            <form>
+                <fieldset >
+                    <fieldset>
+                        <label >Nom :</label>
+                    <input type="text">
+                    <label>Prenoms :</label>
+                    <input type="text">
+                    </fieldset>
+                    <fieldset>
+                        <label for="Email">Email :</label>
+                        <input type="email" id="">
+                    </fieldset>
+                    <fieldset>
+                        <label for="commentaires">Votre commentaire :</label> <br>
+                        <textarea name="commentaire" id="" cols="20" rows="4"></textarea>
+                    </fieldset>
+                </fieldset>
+            </form>
+        </ol>
+        <h3><u>EXERCICE 2</u></h3>
+        <table cellpadding="10">
+            <tr>
+                <th></th>
+                <th colspan="4" align="center"><b>Matin</b></th>
+                <th colspan="4" align="center"><b>Après midi</b></th>
+            </tr>
+            <tr>
+                <th><b>Jours/heures</b></th>
+                <th><b>08-09</b></th>
+                <th><b>09-10</b></th>
+                <th><b>10-11</b></th>
+                <th><b>11-12</b></th>
+                <th><b>14-15</b></th>
+                <th><b>15-16</b></th>
+                <th><b>16-17</b></th>
+                <th><b>17-18</b></th>
+            </tr>
+            <tr>
+                <th><b>Lundi</b></th>
+                <td colspan="4" align="center">Annalyse des données</td>
+                <td colspan="2">Théorie des graphes</td>
+                <td>***</td>
+                <td>***</td>
+            </tr>
+            <tr>
+                <th><b>Mardi</b></th>
+                <td>***</td>
+                <td>***</td>
+                <td colspan="2">Théorie des graphes</td>
+                <td colspan="2">TP informatique</td>
+                <td>***</td>
+                <td>***</td>
+            </tr>
+            <tr>
+                <th><b>Mercredi</b></th>
+                <td colspan="2">Programmation Web</td>
+                <td>***</td>
+                <td>***</td>
+                <td colspan="2">TP programmation web</td>
+                <td>***</td>
+                <td>***</td>
+            </tr>
+            <tr>
+                <th><b>Jeudi</b></th>
+                <td>***</td>
+                <td>***</td>
+                <td colspan="2">TP programmation web</td>
+                <td colspan="4">TD des séries</td>
+            </tr>
+            <tr>
+                <th><b>Vendredi</b></th>
+                <td colspan="2">Structure des données</td>
+                <td colspan="2">TD d'analyse des données</td>
+                <td>***</td>
+                <td>***</td>
+                <td>***</td>
+                <td>***</td>
+            </tr>
+            <tr>
+                <th><b>Samedi</b></th>
+                <td colspan="2">Cours LC</td>
+                <td colspan="2">TD de LC</td>
+                <td>***</td>
+                <td>***</td>
+                <td>***</td>
+                <td>***</td>
+            </tr>
+        </table>
+        <h3><u>EXERCICE 3</u></h3>
+        <form>
+
+
+            <label for="day">Jours: </label>
+            <input type="number" name="" id="" min="1" max="31" placeholder="1">
+
+
+            <label for="months">Mois: </label>
+            <select>
+                <optgroup label="Premier Semestre">
+                    <option value="">Janvier</option>
+                    <option value="">Fevrier</option>
+                    <option value="">Mars</option>
+                    <option value="">Avril</option>
+                    <option value="">Mai</option>
+                    <option value="">Juin</option>
+                </optgroup>
+                <optgroup label="Deuxieme Semestre">
+                    <option value="">Juillet</option>
+                    <option value="">Août</option>
+                    <option value="">Septembre</option>
+                    <option value="">Octobre</option>
+                    <option value="">Novembre</option>
+                    <option value="">Decembre</option>
+                </optgroup>
+            </select>
+            
+                <label for="year">Année</label>
+                <input type="number" name="" id="" min="1980" max="2024"  placeholder="1980"><br>
+                <textarea name="" id="" cols="46" rows="7"></textarea>
+        </form>
+        <h3><u>EXERCICE 4</u></h3>
+        <form>
+            <label for="Utilisateur">Utilisateur :</label>
+            <input type="text" id="Utilisateur"> <br>
+            <label for="passw">Mot de passe :</label>
+            <input type="password" id="passw">
+            <div>
+                <label for="animal">Ton animal préféré :</label>
+                <input type="radio" name="animal">
+                <label for="dog">Chien</label>
+                <input type="radio" name="animal">
+                <label for="cat">Chat</label> <br>
+                <label>Tes loisirs :</label>
+                <label for="sport">sport</label>
+                <input type="radio" id="sport">
+                <label for="lecture">La lecture</label>
+                <input type="radio" id="lecture"> <br>
+                <input type="submit" value="Valider">
+                <input type="reset" value="Annuler">
+            </div>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <fieldset>
+                <legend>Authentification</legend>
+                <label for="Utilisateur">Utilisateur :</label>
+                <input type="text" id="Utilisateur"> <br>
+                <label for="passw">Mot de passe :</label>
+                <input type="password" id="passw">
+                <fieldset>
+                    <div>
+                        <label for="animalprefer">Ton animal préféré :</label>
+                        <input type="radio" name="animalprefer">
+                        <label for="dog">Chien</label>
+                        <input type="radio" name="animalprefer">
+                        <label for="cat">Chat</label>
+                    </div>
+                    <div>
+                        <label>Tes loisirs :</label>
+                        <label for="sport">sport</label>
+                        <input type="radio" id="sport">
+                        <label for="lecture">La lecture</label>
+                        <input type="radio" id="lecture">
+                    </div>
+                </fieldset>
+                <input type="submit" value="Valider">
+                <input type="reset" value="Annuler">
+            </fieldset>
+        </form>
+        <div>
+            <footer>
+                <p>&copy; 2024 Emmanuel Ahossi. Tous droits réservés.<p>
+                </footer> </p>
+        </div>
+    </div>
+</body>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</html>

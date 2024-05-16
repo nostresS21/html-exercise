@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <title>EXERCICE 1 DU TD1</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>/* Style du tableau */
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        
+        /* Style des en-têtes de colonne */
+        th {
+            background-color: #437d9e;
+            border: 1px solid #d61010;
+            padding: 8px;
+            text-align: left;
+        }
+        
+        /* Style des cellules de données */
+        td {
+            border: 1px solid #d61010;
+            padding: 8px;
+            text-align: left;
+        }
+        
+        /* Style pour alterner les couleurs de fond des lignes */
+        tr:nth-child(even) {
+            background-color: #d2dc48;
+        }
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+        header {
+            background-color: #b118e9;
+            color: white;
+            padding: 1em 0;
+            text-align: center;
+        }
+        main {
+            flex: 1;
+            padding: 20px;
+        }
+        footer {
+            background-color: #f1f1f1;
+            text-align: center;
+            padding: 10px;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        h1 {
+            color: #333;
+        }
+        footer {
+            background-color: #153dee3b;
+            text-align: center;
+            padding: 1em;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+        </style>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+</head>
+<body>
+    <nav>
+        <header>
+            <div class="container">
+                <a class="navbar-brand" href="/EXAMEN/index.html">
+                    <img src="/IMAGE/Capture d'écran 2024-05-14 195946.png" alt="Logo" width="30" height="24" class="d-inline-block align-text-top">
+                    EXAMEN DEVELOPPEMENT WEB 
+                </a>
+            </div>
+        </header>
+    </nav>
+    <main>
+        <div class="container">
+            <h2 align="center">TD1</h2>
+            <a href="/TD1_html_L1math_info_2024.pdf" target="_blank">télécharger le fichier exercice TD1 HTML ici</a>
+            <h3><u>EXERCICE 1</u></h3>
+            <p>
+                u<sub>n</sub>=4(u<sub>n-1</sub>+u<sub>n-2</sub>) <br>
+                et <br>
+                f(x)=5x<sup>7</sup>+7x<sup>3</sup>-9x<sup>2</sup>
+            </p>
+            <h3><u>EXERCICE 2</u></h3>
+            <table class="table table-bordered" cellpadding="25">
+                <tr>
+                    <th colspan="2">A</th>
+                    <th colspan="2">B</th>
+                    <th>C</th>
+                </tr>
+                <tr>
+                    <td>D</td>
+                    <td rowspan="3" valign="top">E</td>
+                    <td>F</td>
+                    <td>G</td>
+                    <td>H</td>
+                </tr>
+                <tr>
+                    <td rowspan="3" valign="top">I</td>
+                    <td>J</td>
+                    <td>K</td>
+                    <td>L</td>
+                </tr>
+                <tr>
+                    <td>M</td>
+                    <td colspan="2" rowspan="2" valign="top">N</td>
+                </tr>
+                <tr>
+                    <td>O</td>
+                    <td>P</td>
+                </tr>
+            </table>
+            <h3><u>EXERCICE 3</u></h3>
+                <table class="table table-bordered" >
+                    <tr>
+                        <td>
+                            <table>
+                                <tr>
+                                    <td>1</td>
+                                    <td>2</td>
+                                    <td>3</td>
+                                    <td>4</td>
+                                    <td>5</td>
+                                </tr>
+                                <tr>
+                                    <td>6</td>
+                                    <td>7</td>
+                                    <td>8</td>
+                                    <td>9</td>
+                                    <td>10</td>
+                                </tr>
+                            </table>
+                        </td>
+                        <td>
+                            <table>
+                                <tr>
+                                    <td>A</td>
+                                    <td>B</td>
+                                    <td>C</td>
+                                    <td>D</td>
+                                    <td>E</td>
+                                </tr>
+                                <tr>
+                                    <td>F</td>
+                                    <td>G</td>
+                                    <td>H</td>
+                                    <td>I</td>
+                                    <td>J</td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                    <tr>
+                        <table>
+                            <tr>
+                                <td>a</td>
+                                <td>b</td>
+                                <td>c</td>
+                                <td>d</td>
+                                <td>e</td>
+                                <td>f</td>
+                            </tr>
+                            <tr>
+                                <td>g</td>
+                                <td>h</td>
+                                <td>i</td>
+                                <td>j</td>
+                                <td>k</td>
+                                <td>l</td>
+                            </tr>
+                            <tr>
+                                <td>m</td>
+                                <td>n</td>
+                                <td>o</td>
+                                <td>p</td>
+                                <td>q</td>
+                                <td>r</td>
+                            </tr>
+                        </table>
+                    </tr>
+                </table>
+                <h3><u>EXERCICE 4</u></h3>
+                <p>Les différences entre les méthodes GET et POST sont les suivantes</p>
+                <ul>
+                    <li>GET transporte le paramètre dans la chaîne d’URL, tandis que POST transporte le paramètre dans le corps du message, 
+                        ce qui le rend plus sûr le transfère des données du client au serveur avec le protocole http.
+                    </li>
+                    <li>
+                        Les données envoyées avec la méthode GET apparaissent en clair dans l'URL, tandis que les données envoyées avec la méthode POST ne sont
+                        pas visibles dans l'URL, mais sont contenues dans le message HTTP envoyé lors de la requête.
+                    </li>
+                    <li>
+                        La méthode GET est utilisée pour récupérer les données,
+                        tandis que la méthode POST est utilisée pour stocker ou mettre à jour les données.
+                    </li>
+                    <li>
+                        La méthode GET est utilisée pour envoyer les données moins sensibles,
+                        tandis que la méthode POST est utilisée pour envoyer les données sensibles.
+                    </li>
+                    <li>
+                        En utilisant la méthode POST, vous pouvez envoyer une grande quantité de données 
+                        par rapport à la méthode GET
+                    </li>
+                </ul>
+                <h3><u>EXERCICE 5</u></h3>
+                <fieldset><legend>Formulaire d'inscription</legend>
+                    <form>
+                        <div class="form-group">
+                            <label for="name">Nom :</label>
+                            <input type="text" id="name" name="name" maxlength="25" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="password">Mot de passe :</label>
+                            <input type="password" id="password" name="password" pattern=".{8,}" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">E-mail :</label>
+                            <input type="email" id="email" name="email" maxlength="40" required>
+                        </div>
+                        <button type="submit">Soumettre</button>
+                    </form>
+                </fieldset>
+                <h3><u>EXERCICE 6</u></h3>
+                <fieldset><legend>Formulaire de saisie de texte</legend>
+                    <form>
+                        <label for="text-input">Entrez votre texte :</label>
+                        <textarea id="text-input" name="text-input"></textarea>
+                        <br>
+                        <button type="submit">Envoyer</button>
+                        <button type="reset">Réinitialiser</button>
+                    </form>
+                </fieldset>
+                <h3><u>EXERCICE 7</u></h3>
+                <form>
+                    <fieldset>
+                        <legend>Formulaire</legend>
+                        <label>Nom</label>
+                        <input type="text" name="nom"><br>
+                        <label>Prenom</label>
+                        <input type="text" name="Prenom"><br>
+                        <label>Telephone</label>
+                        <input type="number" name="telephone"><br>
+                        <label>XHTML</label>
+                        <input type="radio" name="XHTML">
+                        <label>CSS</label>
+                        <input type="radio" name="XHTML">
+                        <label>PHP</label>
+                        <input type="radio" name="XHTML"><br>
+                        <label>JavaScript</label>
+                        <input type="radio" name="XHTML">
+                        <label>MySQL</label>
+                        <input type="radio" name="XHTML">
+                    </fieldset>
+                </form>
+            <div>
+    </main>
+            <footer>
+                <p>&copy; 2024 Emmanuel Ahossi. Tous droits réservés.</p>  
+            </footer>
+        </div>
+    </div>
+</body>
+
+</html>
